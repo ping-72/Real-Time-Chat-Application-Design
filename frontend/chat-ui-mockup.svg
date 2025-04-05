@@ -1,0 +1,284 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f3f4f6"/>
+  
+  <!-- Desktop Layout -->
+  <g>
+    <!-- App Container -->
+    <rect x="100" y="50" width="1000" height="700" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    
+    <!-- Left Sidebar -->
+    <rect x="100" y="50" width="300" height="700" rx="8" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    
+    <!-- Sidebar Header -->
+    <rect x="100" y="50" width="300" height="70" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <circle cx="135" cy="85" r="20" fill="#3b82f6"/>
+    <text x="165" y="85" font-family="Arial" font-size="14" font-weight="bold" fill="#111827">John Doe</text>
+    <text x="165" y="100" font-family="Arial" font-size="12" fill="#6b7280">Available</text>
+    <!-- Header Icons -->
+    <circle cx="360" cy="85" r="15" fill="#f3f4f6"/>
+    <path d="M354 85 L366 85 M360 79 L360 91" stroke="#6b7280" stroke-width="2"/>
+    
+    <!-- Search Bar -->
+    <rect x="115" y="135" width="270" height="40" rx="20" fill="#f3f4f6"/>
+    <circle cx="135" cy="155" r="8" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+    <line x1="141" y1="161" x2="147" y2="167" stroke="#9ca3af" stroke-width="1.5"/>
+    <text x="155" y="160" font-family="Arial" font-size="14" fill="#9ca3af">Search conversations...</text>
+    
+    <!-- Navigation Tabs -->
+    <rect x="100" y="190" width="300" height="50" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <rect x="100" y="190" width="100" height="50" fill="#ffffff"/>
+    <rect x="100" y="237" width="100" height="3" rx="1.5" fill="#3b82f6"/>
+    <rect x="200" y="190" width="100" height="50" fill="#ffffff"/>
+    <rect x="300" y="190" width="100" height="50" fill="#ffffff"/>
+    <text x="140" y="225" font-family="Arial" font-size="13" text-anchor="middle" fill="#3b82f6" font-weight="bold">Chats</text>
+    <text x="240" y="225" font-family="Arial" font-size="13" text-anchor="middle" fill="#6b7280">Contacts</text>
+    <text x="340" y="225" font-family="Arial" font-size="13" text-anchor="middle" fill="#6b7280">Settings</text>
+    
+    <!-- New Chat Button -->
+    <rect x="115" y="255" width="270" height="40" rx="20" fill="#3b82f6"/>
+    <text x="250" y="280" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">New Conversation</text>
+    <circle cx="155" cy="275" r="10" fill="#ffffff"/>
+    <path d="M155 270 L155 280 M150 275 L160 275" stroke="#3b82f6" stroke-width="2"/>
+    
+    <!-- Conversation List -->
+    <!-- Conversation 1 (Active) -->
+    <rect x="100" y="310" width="300" height="80" fill="#eff6ff" stroke="#e5e7eb" stroke-width="1"/>
+    <circle cx="135" cy="350" r="25" fill="#4f46e5"/>
+    <text x="135" y="355" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">SB</text>
+    <circle cx="155" cy="365" r="5" fill="#10b981" stroke="#ffffff" stroke-width="2"/>
+    <text x="170" y="340" font-family="Arial" font-size="14" font-weight="bold" fill="#111827">Sarah Brown</text>
+    <text x="170" y="360" font-family="Arial" font-size="12" fill="#6b7280" font-weight="bold">You: Let's meet tomorrow at 10...</text>
+    <text x="360" y="340" font-family="Arial" font-size="11" text-anchor="end" fill="#6b7280">10:42 AM</text>
+    <circle cx="360" cy="360" r="10" fill="#3b82f6"/>
+    <text x="360" y="364" font-family="Arial" font-size="10" text-anchor="middle" fill="#ffffff">3</text>
+    
+    <!-- Conversation 2 -->
+    <rect x="100" y="390" width="300" height="80" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <circle cx="135" cy="430" r="25" fill="#ef4444"/>
+    <text x="135" y="435" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">TD</text>
+    <circle cx="155" cy="445" r="5" fill="#6b7280" stroke="#ffffff" stroke-width="2"/>
+    <text x="170" y="420" font-family="Arial" font-size="14" fill="#111827">Team Developers</text>
+    <text x="170" y="440" font-family="Arial" font-size="12" fill="#6b7280">Mike: Has anyone reviewed PR #42?</text>
+    <text x="360" y="420" font-family="Arial" font-size="11" text-anchor="end" fill="#6b7280">Yesterday</text>
+    
+    <!-- Conversation 3 -->
+    <rect x="100" y="470" width="300" height="80" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <circle cx="135" cy="510" r="25" fill="#84cc16"/>
+    <text x="135" y="515" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">JC</text>
+    <circle cx="155" cy="525" r="5" fill="#10b981" stroke="#ffffff" stroke-width="2"/>
+    <text x="170" y="500" font-family="Arial" font-size="14" fill="#111827">Jane Cooper</text>
+    <text x="170" y="520" font-family="Arial" font-size="12" fill="#6b7280">The presentation went well!</text>
+    <text x="360" y="500" font-family="Arial" font-size="11" text-anchor="end" fill="#6b7280">Wed</text>
+    
+    <!-- Main Chat Area -->
+    <rect x="400" y="50" width="700" height="700" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    
+    <!-- Chat Header -->
+    <rect x="400" y="50" width="700" height="70" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <circle cx="435" cy="85" r="20" fill="#4f46e5"/>
+    <text x="435" y="90" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">SB</text>
+    <circle cx="455" cy="100" r="5" fill="#10b981" stroke="#ffffff" stroke-width="2"/>
+    <text x="465" y="85" font-family="Arial" font-size="14" font-weight="bold" fill="#111827">Sarah Brown</text>
+    <text x="465" y="100" font-family="Arial" font-size="12" fill="#6b7280">Online</text>
+    
+    <!-- Chat Header Icons -->
+    <circle cx="1030" cy="85" r="15" fill="#f3f4f6"/>
+    <path d="M1025 90 L1035 80 M1025 80 L1035 90" stroke="#6b7280" stroke-width="2"/>
+    <circle cx="990" cy="85" r="15" fill="#f3f4f6"/>
+    <path d="M985 85 L995 85 M990 80 L990 90" stroke="#6b7280" stroke-width="2"/>
+    <circle cx="950" cy="85" r="15" fill="#f3f4f6"/>
+    <path d="M945 85 L955 85" stroke="#6b7280" stroke-width="2"/>
+    
+    <!-- Chat Messages Area -->
+    <rect x="400" y="120" width="700" height="550" fill="#f9fafb"/>
+    
+    <!-- Message Date Header -->
+    <rect x="650" y="140" width="200" height="30" rx="15" fill="#e5e7eb"/>
+    <text x="750" y="160" font-family="Arial" font-size="12" text-anchor="middle" fill="#4b5563">Today, April 5, 2025</text>
+    
+    <!-- Message from Sarah -->
+    <circle cx="435" cy="200" r="18" fill="#4f46e5"/>
+    <text x="435" y="205" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">SB</text>
+    <rect x="460" y="180" width="300" height="40" rx="18" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="480" y="205" font-family="Arial" font-size="14" fill="#111827">Hi John! How's your day going?</text>
+    <text x="480" y="230" font-family="Arial" font-size="11" fill="#6b7280">10:15 AM</text>
+    
+    <!-- Message from John -->
+    <rect x="740" y="250" width="320" height="60" rx="18" fill="#3b82f6"/>
+    <text x="760" y="275" font-family="Arial" font-size="14" fill="#ffffff">Hey Sarah! It's going well, thanks for asking.</text>
+    <text x="760" y="295" font-family="Arial" font-size="14" fill="#ffffff">Just finishing up some designs. How about you?</text>
+    <text x="1020" y="325" font-family="Arial" font-size="11" text-anchor="end" fill="#6b7280">10:18 AM</text>
+    <path d="M1030 315 L1040 315 M1035 310 L1040 315 L1035 320" stroke="#10b981" stroke-width="1.5"/>
+    
+    <!-- Message from Sarah -->
+    <circle cx="435" cy="370" r="18" fill="#4f46e5"/>
+    <text x="435" y="375" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">SB</text>
+    <rect x="460" y="330" width="400" height="80" rx="18" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="480" y="355" font-family="Arial" font-size="14" fill="#111827">I'm doing great! Working on the presentation for</text>
+    <text x="480" y="375" font-family="Arial" font-size="14" fill="#111827">tomorrow. By the way, can we meet to discuss</text>
+    <text x="480" y="395" font-family="Arial" font-size="14" fill="#111827">the project details? How about 10 AM?</text>
+    <text x="480" y="420" font-family="Arial" font-size="11" fill="#6b7280">10:25 AM</text>
+    
+    <!-- Message from John -->
+    <rect x="740" y="460" width="320" height="40" rx="18" fill="#3b82f6"/>
+    <text x="760" y="485" font-family="Arial" font-size="14" fill="#ffffff">Sounds good! I'll see you tomorrow at 10 AM.</text>
+    <text x="1020" y="515" font-family="Arial" font-size="11" text-anchor="end" fill="#6b7280">10:42 AM</text>
+    <path d="M1030 505 L1040 505 M1035 500 L1040 505 L1035 510" stroke="#10b981" stroke-width="1.5"/>
+    
+    <!-- Typing indicator from Sarah -->
+    <circle cx="435" cy="560" r="18" fill="#4f46e5"/>
+    <text x="435" y="565" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">SB</text>
+    <rect x="460" y="540" width="120" height="40" rx="18" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <circle cx="490" cy="560" r="5" fill="#6b7280">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="510" cy="560" r="5" fill="#6b7280">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" begin="0.2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="530" cy="560" r="5" fill="#6b7280">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" begin="0.4s" repeatCount="indefinite" />
+    </circle>
+    <text x="480" y="590" font-family="Arial" font-size="11" fill="#6b7280">Sarah is typing...</text>
+    
+    <!-- Message Input Area -->
+    <rect x="400" y="670" width="700" height="80" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    
+    <!-- Input Field -->
+    <rect x="480" y="690" width="540" height="40" rx="20" fill="#f3f4f6"/>
+    <text x="500" y="715" font-family="Arial" font-size="14" fill="#9ca3af">Type a message...</text>
+    
+    <!-- Input Buttons -->
+    <circle cx="440" cy="710" r="18" fill="#f3f4f6"/>
+    <path d="M432 710 L448 710" stroke="#6b7280" stroke-width="2"/>
+    <path d="M440 702 L440 718" stroke="#6b7280" stroke-width="2"/>
+    
+    <circle cx="1050" cy="710" r="18" fill="#3b82f6"/>
+    <path d="M1045 710 L1055 710 M1050 705 L1055 710 L1050 715" stroke="#ffffff" stroke-width="2" transform="rotate(90 1050 710)"/>
+  </g>
+  
+  <!-- Mobile Layout (smaller version below) -->
+  <g transform="translate(100, 780) scale(0.5)">
+    <text x="600" y="-50" font-family="Arial" font-size="20" text-anchor="middle" fill="#111827" font-weight="bold">Mobile Version</text>
+    
+    <!-- Mobile Conversation List View -->
+    <rect x="100" y="50" width="400" height="700" rx="20" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Status Bar -->
+    <rect x="100" y="50" width="400" height="30" rx="20" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+    <text x="130" y="70" font-family="Arial" font-size="12" fill="#111827">9:41</text>
+    <text x="470" y="70" font-family="Arial" font-size="12" text-anchor="end" fill="#111827">100%</text>
+    
+    <!-- Header -->
+    <rect x="100" y="80" width="400" height="60" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <circle cx="130" cy="110" r="15" fill="#3b82f6"/>
+    <text x="130" y="115" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">J</text>
+    <text x="160" y="115" font-family="Arial" font-size="16" fill="#111827" font-weight="bold">Messages</text>
+    <circle cx="470" cy="110" r="15" fill="#f3f4f6"/>
+    <path d="M465 110 L475 110 M470 105 L470 115" stroke="#6b7280" stroke-width="1.5"/>
+    
+    <!-- Search Bar -->
+    <rect x="120" y="155" width="360" height="40" rx="20" fill="#f3f4f6"/>
+    <circle cx="140" cy="175" r="8" fill="none" stroke="#9ca3af" stroke-width="1.5"/>
+    <line x1="146" y1="181" x2="152" y2="187" stroke="#9ca3af" stroke-width="1.5"/>
+    <text x="160" y="180" font-family="Arial" font-size="14" fill="#9ca3af">Search</text>
+    
+    <!-- Conversation List -->
+    <!-- Conversation 1 -->
+    <rect x="100" y="210" width="400" height="80" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <circle cx="140" cy="250" r="25" fill="#4f46e5"/>
+    <text x="140" y="255" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">SB</text>
+    <circle cx="160" cy="265" r="5" fill="#10b981" stroke="#ffffff" stroke-width="2"/>
+    <text x="175" y="240" font-family="Arial" font-size="14" font-weight="bold" fill="#111827">Sarah Brown</text>
+    <text x="175" y="260" font-family="Arial" font-size="12" fill="#6b7280" font-weight="bold">You: Let's meet tomorrow at 10...</text>
+    <text x="480" y="240" font-family="Arial" font-size="11" text-anchor="end" fill="#6b7280">10:42 AM</text>
+    <circle cx="470" cy="260" r="10" fill="#3b82f6"/>
+    <text x="470" y="264" font-family="Arial" font-size="10" text-anchor="middle" fill="#ffffff">3</text>
+    
+    <!-- Conversation 2 -->
+    <rect x="100" y="290" width="400" height="80" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <circle cx="140" cy="330" r="25" fill="#ef4444"/>
+    <text x="140" y="335" font-family="Arial" font-size="14" text-anchor="middle" fill="#ffffff">TD</text>
+    <circle cx="160" cy="345" r="5" fill="#6b7280" stroke="#ffffff" stroke-width="2"/>
+    <text x="175" y="320" font-family="Arial" font-size="14" fill="#111827">Team Developers</text>
+    <text x="175" y="340" font-family="Arial" font-size="12" fill="#6b7280">Mike: Has anyone reviewed PR #42?</text>
+    <text x="480" y="320" font-family="Arial" font-size="11" text-anchor="end" fill="#6b7280">Yesterday</text>
+    
+    <!-- Mobile Tabbar -->
+    <rect x="100" y="700" width="400" height="50" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="200" y="730" font-family="Arial" font-size="12" text-anchor="middle" fill="#3b82f6">Chats</text>
+    <text x="300" y="730" font-family="Arial" font-size="12" text-anchor="middle" fill="#6b7280">Contacts</text>
+    <text x="400" y="730" font-family="Arial" font-size="12" text-anchor="middle" fill="#6b7280">Settings</text>
+    <path d="M200 720 L200 720" stroke="#3b82f6" stroke-width="2"/>
+    
+    <!-- Mobile Chat View -->
+    <rect x="600" y="50" width="400" height="700" rx="20" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Status Bar -->
+    <rect x="600" y="50" width="400" height="30" rx="20" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+    <text x="630" y="70" font-family="Arial" font-size="12" fill="#111827">9:41</text>
+    <text x="970" y="70" font-family="Arial" font-size="12" text-anchor="end" fill="#111827">100%</text>
+    
+    <!-- Chat Header -->
+    <rect x="600" y="80" width="400" height="60" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <path d="M630 110 L610 110 M620 100 L610 110 L620 120" stroke="#6b7280" stroke-width="1.5"/>
+    <circle cx="655" cy="110" r="20" fill="#4f46e5"/>
+    <text x="655" y="115" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">SB</text>
+    <circle cx="675" cy="120" r="5" fill="#10b981" stroke="#ffffff" stroke-width="2"/>
+    <text x="685" y="110" font-family="Arial" font-size="14" fill="#111827" font-weight="bold">Sarah Brown</text>
+    <text x="685" y="125" font-family="Arial" font-size="12" fill="#6b7280">Online</text>
+    <circle cx="970" cy="110" r="15" fill="#f3f4f6"/>
+    <path d="M965 110 L975 110" stroke="#6b7280" stroke-width="1.5"/>
+    
+    <!-- Chat Messages Area -->
+    <rect x="600" y="140" width="400" height="510" fill="#f9fafb"/>
+    
+    <!-- Message from Sarah -->
+    <circle cx="630" cy="180" r="18" fill="#4f46e5"/>
+    <text x="630" y="185" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">SB</text>
+    <rect x="655" y="160" width="200" height="40" rx="18" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="675" y="185" font-family="Arial" font-size="14" fill="#111827">Hi John! How's your day going?</text>
+    <text x="675" y="210" font-family="Arial" font-size="11" fill="#6b7280">10:15 AM</text>
+    
+    <!-- Message from John -->
+    <rect x="700" y="230" width="280" height="60" rx="18" fill="#3b82f6"/>
+    <text x="720" y="255" font-family="Arial" font-size="14" fill="#ffffff">Hey Sarah! It's going well, thanks</text>
+    <text x="720" y="275" font-family="Arial" font-size="14" fill="#ffffff">for asking. How about you?</text>
+    <text x="960" y="305" font-family="Arial" font-size="11" text-anchor="end" fill="#6b7280">10:18 AM</text>
+    <path d="M970 295 L980 295 M975 290 L980 295 L975 300" stroke="#10b981" stroke-width="1.5"/>
+    
+    <!-- Message from Sarah -->
+    <circle cx="630" cy="350" r="18" fill="#4f46e5"/>
+    <text x="630" y="355" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">SB</text>
+    <rect x="655" y="330" width="200" height="80" rx="18" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    <text x="675" y="355" font-family="Arial" font-size="14" fill="#111827">I'm doing great! Can we meet</text>
+    <text x="675" y="375" font-family="Arial" font-size="14" fill="#111827">to discuss the project details?</text>
+    <text x="675" y="395" font-family="Arial" font-size="14" fill="#111827">How about 10 AM tomorrow?</text>
+    <text x="675" y="420" font-family="Arial" font-size="11" fill="#6b7280">10:25 AM</text>
+    
+    <!-- Message from John -->
+    <rect x="730" y="440" width="250" height="40" rx="18" fill="#3b82f6"/>
+    <text x="750" y="465" font-family="Arial" font-size="14" fill="#ffffff">Sounds good! See you at 10 AM.</text>
+    <text x="960" y="495" font-family="Arial" font-size="11" text-anchor="end" fill="#6b7280">10:42 AM</text>
+    <path d="M970 485 L980 485 M975 480 L980 485 L975 490" stroke="#10b981" stroke-width="1.5"/>
+    
+    <!-- Message Input Area -->
+    <rect x="600" y="650" width="400" height="100" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+    
+    <!-- Input Buttons -->
+    <circle cx="630" cy="690" r="18" fill="#f3f4f6"/>
+    <path d="M622 690 L638 690" stroke="#6b7280" stroke-width="2"/>
+    <path d="M630 682 L630 698" stroke="#6b7280" stroke-width="2"/>
+    
+    <circle cx="670" cy="690" r="18" fill="#f3f4f6"/>
+    <path d="M662 690 L678 690" stroke="#6b7280" stroke-width="2"/>
+    
+    <!-- Input Field -->
+    <rect x="700" y="670" width="240" height="40" rx="20" fill="#f3f4f6"/>
+    <text x="720" y="695" font-family="Arial" font-size="14" fill="#9ca3af">Message</text>
+    
+    <!-- Send Button -->
+    <circle cx="970" cy="690" r="18" fill="#3b82f6"/>
+    <path d="M965 690 L975 690 M970 685 L975 690 L970 695" stroke="#ffffff" stroke-width="2" transform="rotate(90 970 690)"/>
+  </g>
+</svg>
